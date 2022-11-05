@@ -11,3 +11,8 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+-   After cloning the repository, install Docker in your machine by following the steps given in this [link](https://docs.docker.com/get-docker/)
+-   Check if docker is properly installed by running `docker -v` and `docker-compose -v` in your command terminal.
+-   Run the command `docker-compose up` from the root directory of the cloned repository to load the frontend, backend, and the database.
+-   Now your environment is ready and it can be verified by pointing your browser to [http://localhost:3000/api/ping](http://localhost:3000/api/ping).
